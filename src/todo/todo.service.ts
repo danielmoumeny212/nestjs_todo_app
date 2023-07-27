@@ -5,11 +5,7 @@ import { Todo } from './todo.interface';
 @Injectable()
 export class TodoService {
   private storage: Todo[] = [
-    {
-      id: 1,
-      label: "Create an awesome API",
-      complete: false,
-    }
+   
   ];
 
   create(todo: Todo) {
